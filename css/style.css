@@ -83,7 +83,84 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.content-wrapper {
+  width: 90%;
+  margin: 20px 0;
+}
 
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  width: 100%;
+}
+
+header nav ul li {
+  padding: 5px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .content-wrapper {
+  width: 55%;
+}
+
+footer .contact {
+  margin-bottom: 20px;
+}
+
+footer .social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .copyright {
+  width: 90%;
+  text-align: left;
+  padding-top: 40px;
+}
+
+main img {
+  width: 100%;
+}
+
+.project {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -244,4 +321,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
