@@ -272,8 +272,14 @@ main img {
   width: 150px;
   height: 30px;
   border-radius: 15px;
-  background-color: #f19494;
+  background: #f19494;
   margin-top: 10px;
+  display: inline-block; /* Строчно-блочный элемент */
+  /* background: #8c959d;  */
+  color: #fff; /* Белый цвет текста */
+  padding: 1rem 1.5rem; /* Поля вокруг текста */
+  text-decoration: none; /* Убираем подчёркивание */
+  border-radius: 3px;
 }
 
 .projects-wrapper,
