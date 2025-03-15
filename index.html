@@ -19,6 +19,17 @@
 
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
+
+  <!--fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Oswald:wght@200..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+    rel="stylesheet">
+
+  <!--font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 
 <body>
@@ -34,7 +45,7 @@
           <li>Contact</li>
         </ul>
       </nav>
-
+      <div class="divider"></div>
       <div class="intro">
         <h1>Anastasiia Nagdaseva
         </h1>
@@ -45,167 +56,196 @@
   </header>
 
   <main>
-    <div class="content-wrapper">
-      <h2>Projects</h2>
-      <article class="project">
-        <a href="https://annavn.github.io/unplugged/" target="_blank"><img src="img/unplugged-responsive.png"
-            alt="girl standing on the bridge showing on a different types of devices"></a>
-        <h3>Unplugged</h3>
-        <p>A responsive multy-page website for worker's fallback , provides Google maps usage.
-        </p>
-        <p><span>Skills: </span>CSS3, Flexbox, HTML5, Media Queries, Responsive Typography
-        </p>
-        <p><span>Tools: </span>GitHub, Visual Studio
-        </p>
-        <a href="https://annavn.github.io/unplugged/" target="_blank"><button type="button">Live page</button></a>
-      </article>
+    <section class="portfolio">
+      <div class="content-wrapper">
+        <h2>Projects</h2>
+        <div class="projects-wrapper">
 
-      <article class="project">
-        <a href="https://annavn.github.io/responsive-rogue-pickings/" target="_blank"><img
-            src="img/rogue-pickings-responsive.png"
-            alt="A Welcome page of a cafe showing on a different types of devices"></a>
-        <h3>Rogue-pickings
-        </h3>
-        <p>A responsive one-page website of a cafe.
-        </p>
-        <p><span>Skills: </span>CSS3, Flexbox, HTML5, Media Queries, Responsive Typography
-        </p>
-        <p><span>Tools: </span>GitHub, Visual Studio
-        </p>
-        <a href="https://annavn.github.io/responsive-rogue-pickings/" target="_blank"><button type="button">Live
-            page</button></a>
-      </article>
+          <article class="project">
+            <a href="https://annavn.github.io/unplugged/" target="_blank"><img src="img/unplugged-responsive.png"
+                alt="girl standing on the bridge showing on a different types of devices"></a>
+            <h3>Unplugged</h3>
+            <p class="description">A responsive multy-page website for worker's fallback , provides Google maps usage.
+            </p>
+            <p><span>Skills: </span>CSS3, Flexbox, HTML5, Media Queries, Responsive Typography
+            </p>
+            <p><span>Tools: </span>GitHub, Visual Studio
+            </p>
+            <a href="https://annavn.github.io/unplugged/" target="_blank"><button type="button" class="but">Live
+                page</button></a>
+          </article>
 
-      <article class="project">
-        <a href="https://annavn.github.io/guess-the-word-game/" target="_blank"><img
-            src="img/guess-the-word-responsive.png" alt=A field, guess button and message place to guess the word
-            showing on a different types of devices"></a>
-        <h3>Guess-the-word-game resp
-        </h3>
-        <p>A responsive guess the word game with a small fireworks if you guessed right.
-        </p>
-        <p><span>Skills: </span>Manipulate the DOM, JavaScript
-        </p>
-        <p><span>Tools: </span>GitHub, Visual Studio
-        </p>
-        <a href="https://annavn.github.io/guess-the-word-game/" target="_blank"><button type="button">Live
-            page</button></a>
-      </article>
+          <article class="project">
+            <a href="https://annavn.github.io/responsive-rogue-pickings/" target="_blank"><img
+                src="img/rogue-pickings-responsive.png"
+                alt="A Welcome page of a cafe showing on a different types of devices"></a>
+            <h3>Rogue-pickings
+            </h3>
+            <p class="description">A responsive one-page website of a cafe.
+            </p>
+            <p><span>Skills: </span>CSS3, Flexbox, HTML5, Media Queries, Responsive Typography
+            </p>
+            <p><span>Tools: </span>GitHub, Visual Studio
+            </p>
+            <a href="https://annavn.github.io/responsive-rogue-pickings/" target="_blank"><button type="button"
+                class="but">Live
+                page</button></a>
+          </article>
 
-      <article class="project">
-        <a href="https://annavn.github.io/GitHub-repo-gallery/
+          <article class="project">
+            <a href="https://annavn.github.io/guess-the-word-game/" target="_blank"><img
+                src="img/guess-the-word-responsive.png" alt=A field, guess button and message place to guess the word
+                showing on a different types of devices"></a>
+            <h3>Guess-the-word-game resp
+            </h3>
+            <p class="description">A responsive guess the word game with a small fireworks if you guessed right.
+            </p>
+            <p><span>Skills: </span>Manipulate the DOM, JavaScript
+            </p>
+            <p><span>Tools: </span>GitHub, Visual Studio
+            </p>
+            <a href="https://annavn.github.io/guess-the-word-game/" target="_blank"><button type="button"
+                class="but">Live
+                page</button></a>
+          </article>
+
+          <article class="project">
+            <a href="https://annavn.github.io/GitHub-repo-gallery/
         " target="_blank"><img src="img/github-repo-galer-responsive.png"
-            alt="A list of repos showing on a different types of devices"></a>
-        <h3>GitHub-repo-gallery resp
-        </h3>
-        <p>A table of repos with links to GitHub pages.
-        </p>
-        <p><span>Skills: </span>APIs, Manipulate the DOM
-        </p>
-        <p><span>Tools: </span>GitHub, Visual Studio
-        </p>
-        <a href="https://annavn.github.io/GitHub-repo-gallery/
-        " target="_blank"><button type="button">Live page</button></a>
-      </article>
+                alt="A list of repos showing on a different types of devices"></a>
+            <h3>GitHub-repo-gallery resp
+            </h3>
+            <p class="description">A table of repos with links to GitHub pages.
+            </p>
+            <p><span>Skills: </span>APIs, Manipulate the DOM
+            </p>
+            <p><span>Tools: </span>GitHub, Visual Studio
+            </p>
+            <a href="https://annavn.github.io/GitHub-repo-gallery/
+        " target="_blank"><button type="button" class="but">Live page</button></a>
+          </article>
 
-      <article class="project">
-        <a href="https://annavn.github.io/unplugged-music/" target="_blank"><img
-            src="img/unplugged-music-repsonsive.png"
-            alt="A picture of concert and columns of music news showing on a different types of devices"></a>
-        <h3>Unplugged music</h3>
-        <p>A responsive multy-page website contains news about music.
-        </p>
-        <p><span>Skills: </span>CSS3, Flexbox, HTML5, Media Queries, Responsive Typography
-        </p>
-        <p><span>Tools: </span>GitHub, Visual Studio
-        </p>
-        <a href="https://annavn.github.io/unplugged-music/" target="_blank"><button type="button">Live page</button></a>
-      </article>
+          <article class="project">
+            <a href="https://annavn.github.io/unplugged-music/" target="_blank"><img
+                src="img/unplugged-music-repsonsive.png"
+                alt="A picture of concert and columns of music news showing on a different types of devices"></a>
+            <h3>Unplugged music</h3>
+            <p class="description">A responsive multy-page website contains news about music.
+            </p>
+            <p><span>Skills: </span>CSS3, Flexbox, HTML5, Media Queries, Responsive Typography
+            </p>
+            <p><span>Tools: </span>GitHub, Visual Studio
+            </p>
+            <a href="https://annavn.github.io/unplugged-music/" target="_blank"><button type="button" class="but">Live
+                page</button></a>
+          </article>
 
-      <article class="project">
-        <a href="https://annavn.github.io/guess-the-number/" target="_blank"><img src="img/guess-the-number.png"
-            alt="A field, guess button and message places for guess the number game"></a>
-        <h3>Guess-the-number
-        </h3>
-        <p>Guess the number game that checks a user guess, counts score, hightscore.
-        </p>
-        <p><span>Skills: </span>Manipulate the DOM, JavaScript
-        </p>
-        <p><span>Tools: </span>GitHub, Visual Studio
-        </p>
-        <a href="https://annavn.github.io/guess-the-number/" target="_blank"><button type="button">Live
-            page</button></a>
-      </article>
+          <article class="project">
+            <a href="https://annavn.github.io/guess-the-number/" target="_blank"><img src="img/guess-the-number.png"
+                alt="A field, guess button and message places for guess the number game"></a>
+            <h3>Guess-the-number
+            </h3>
+            <p class="description">Guess the number game that checks a user guess, counts score, hightscore.
+            </p>
+            <p><span>Skills: </span>Manipulate the DOM, JavaScript
+            </p>
+            <p><span>Tools: </span>GitHub, Visual Studio
+            </p>
+            <a href="https://annavn.github.io/guess-the-number/" target="_blank"><button type="button" class="but">Live
+                page</button></a>
+          </article>
 
-      <article class="project">
-        <p><img src="" alt=""></p>
-        <h3>Greenfield project
-        </h3>
-        <p>Just a welcome page with confetti falling down
-        </p>
-        <p><span>Skills: </span>Manipulate the DOM, Vite + React
-        </p>
-        <p><span>Tools: </span>GitHub, Visual Studio
-        </p>
-        <button type="button">Live page</button>
-      </article>
-    </div>
+          <article class="project">
+            <h3>Greeting and sport choice buttons</h3>
+            <figure>
+              <a href="https://sport-choice.vercel.app/" target="_blank"><img src="img/sport-choice.png"
+                  alt="Greeting and sport choice buttons"></a>
+            </figure>
+            <p class="description">Simple greet page with sport-choice buttons.
+            </p>
+            <p><span>Skills: </span>Manipulate the DOM, React
+            </p>
+            <p class="tools"><span>Tools: </span>GitHub, Visual Studio
+            </p>
+            <p class="live-page-link">
+              <a href="https://sport-choice.vercel.app/" target="_blank"><button type="button" class="but">Live
+                  page</button></a>
+            </p>
+          </article>
+        </div>
+      </div>
 
-    <div class="content-wrapper">
-      <h2>Skills</h2>
-      <article class="skills">
-        <h4>Developer Skills</h4>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Pesponsive Web Development</li>
-          <li>JavaScript</li>
-          <li>React</li>
-        </ul>
-      </article>
 
-      <article class="skills">
-        <h4>Tech Stack</h4>
-        <ul>
-          <li>GIT</li>
-          <li>GitHub</li>
-          <li>Visual Studio</li>
-          <li>CodeSandBox</li>
-        </ul>
-      </article>
-    </div>
+      <div class="skills">
+        <h2>Skills</h2>
+        <div class=" content-wrapper">
+          <h3>Developer Skills</h3>
+          <div class="skills-items">
+            <p class="skill">HTML</p>
+            <p class="skill">CSS</p>
+            <p class="skill">Pesponsive Web Development</p>
+            <p class="skill">JavaScript</p>
+            <p class="skill">React</p>
+          </div>
 
-    <div class="content-wrapper">
-      <h2>About</h2>
-      <p>I'm a friendly, communicative, open to new interesting and positive things person.
-        I love to solve puzzles. It helps me because I am very attentive to
-        details.
-        I love to create functional and beautiful sites where I can use my organization skills and eye for detail to
-        write neat and tidy code.
-      </p>
-      <h2>Something</h2>
-    </div>
+
+
+          <h3>Tech Stack</h3>
+          <div class="tools-items">
+            <p class="tool">GIT</p>
+            <p class="tool">GitHub</p>
+            <p class="tool">Visual Studio</p>
+            <p class="tool">CodeSandBox</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="content-wrapper">
+        <div class="about-wrapper">
+          <h2>About</h2>
+          <p>I'm a friendly, communicative, open to new interesting and positive things person.
+            I love to solve puzzles. It helps me because I am very attentive to
+            details.
+            I love to create functional and beautiful sites where I can use my organization skills and eye for detail to
+            write neat and tidy code.
+          </p>
+          <h2>Something</h2>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>
     <div class="content-wrapper">
-      <div class="contact">
-        <h2>Let's Connect</h2>
-        <p></p>
-        <p></p>
-        <p><a href="mailto:email&body=Hello?subject=Question">Email</a></p>
-      </div>
+      <div class="footer-wrapper">
 
-      <div class="social">
-        <a href="https://github.com/AnnaVN" target="_blank"><img src="img/github.png" alt="github"></a>
-        <a href="https://www.linkedin.com/in/anastasiia-nagdaseva-a66425251" target="_blank"><img src="img/linkedin.png"
-            alt="linkedin"></a>
+        <h2>Let's Connect</h2>
+        <div class="contact">
+          <div class="contact-info">
+            <p><a href="mailto:email&body=Hello?subject=Question">Email</a></p>
+          </div>
+
+          <div class="contact social">
+            <div class="social-icons">
+              <p><a href="https://github.com/AnnaVN" target="_blank"><i class="fab fa-github"></i></a></p>
+              <p><a href="https://www.linkedin.com/in/anastasiia-nagdaseva-a66425251" target="_blank"><i
+                    class="fab fa-linkedin"></i></a></p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="copyright">
+    <p class="copyright">Copyright
+      <script>document.write(new Date().getFullYear())</script> | Anastasiia Nagdaseva
+    </p>
+    <!-- <div class="copyright">
       <p>Toronto, Canada</p>
       <p>&copy; Copyright 2025 | Anastasiia Nagdaseva</p>
+    </div> -->
     </div>
   </footer>
 
