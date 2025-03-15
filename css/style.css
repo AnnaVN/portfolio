@@ -137,6 +137,10 @@ h3 {
   margin: 20px 0;
 }
 
+a {
+  color: #e2e3ed;
+}
+
 header nav {
   /* display: flex;
   justify-content: center; */
