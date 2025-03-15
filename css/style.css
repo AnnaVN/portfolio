@@ -87,7 +87,7 @@ body {
   font-size: 1em;
   background-color: #ffe8d6;
   font-family: "Source Sans 3", serif;
-  font-optical-sizing: auto;
+  /* font-optical-sizing: auto; */
   text-align: left;
 }
 
@@ -264,7 +264,7 @@ main img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
+  /* align-items: left; */
   margin: 20px 0;
 }
 
