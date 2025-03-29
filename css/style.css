@@ -197,7 +197,11 @@ footer h2 {
   font-style: normal;
 }
 
-footer .contact-info p a {
+/* footer .contact-info p a {
+  color: #e2e3ed;
+} */
+
+footer .email {
   color: #e2e3ed;
 }
 
@@ -227,8 +231,8 @@ footer .social-icons {
 footer .social-icons p {
   background-color: #e2e3ed;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 55px;
+  height: 55px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -236,14 +240,16 @@ footer .social-icons p {
 }
 
 footer .social-icons p i {
-  font-size: 1.3rem;
+  font-size: 2rem;
   padding: 2px;
+  color: #222;
 }
 
 footer .copyright {
   width: 95%;
   text-align: left;
   padding-top: 40px;
+  padding-left: 20px;
 }
 
 /*** Mobile ***/
@@ -307,6 +313,21 @@ main img {
 
 .skills .content-wrapper {
   width: 95%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.skills-items p i,
+.tech p i {
+  padding-right: 10px;
+  color: #222;
+}
+
+.small {
+  width: 30px;
+  height: 30px;
+  padding-right: 10px;
 }
 
 .skills h2 {
@@ -472,6 +493,11 @@ main img {
 
   footer .copyright {
     width: 100%;
+  }
+
+  .skills .content-wrapper {
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 }
 
