@@ -84,7 +84,8 @@ body {
   border: none;
   outline: none;
   background-color: #f19494;
-  color: white;
+  color: #112a46;
+  font-weight: 800;
   cursor: pointer;
   padding: 15px;
   border-radius: 9px;
@@ -422,7 +423,8 @@ header h2 {
   background: #f19494;
   margin-top: 10px;
   display: inline-block;
-  color: #ffffff;
+  color: #112a46;
+  font-weight: 800;
 
   text-decoration: none;
   padding: 0.75rem 3.75rem;
