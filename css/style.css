@@ -37,12 +37,6 @@ hr {
   padding: 0;
 }
 
-/*
-     * Remove the gap between audio, canvas, iframes,
-     * images, videos and the bottom of their containers:
-     * https://github.com/h5bp/html5-boilerplate/issues/440
-     */
-
 audio,
 canvas,
 iframe,
@@ -103,7 +97,6 @@ a {
 }
 
 h1 {
-  /* color: #e2e3ed; */
   font-family: "Poppins", sans-serif;
   font-size: 1.75rem;
   line-height: 1.5;
@@ -291,6 +284,18 @@ footer .copyright {
   text-align: left;
   padding-left: 20px;
   padding-bottom: 0;
+}
+
+.visually-hidden {
+  display: inline-block;
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
 }
 
 /************/
